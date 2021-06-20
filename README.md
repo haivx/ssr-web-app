@@ -1,4 +1,4 @@
 # ssr-web-app
-Serverside rendering with nextjs <br />
+1. Client: Serverside rendering with nextjs <br />
 
 Inspired by [Scott Moss](https://twitter.com/scotups)
