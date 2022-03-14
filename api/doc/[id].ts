@@ -1,8 +1,8 @@
 import nc from 'next-connect'
-import middleware from '../../../middleware/all'
-import onError from '../../../middleware/error'
-import {doc} from '../../../db'
-import { Request } from '../../../types'
+import middleware from '../../middleware/all'
+import onError from '../../middleware/error'
+import {doc} from '../../db'
+import { Request } from '../../types'
 const handler = nc({
     onError,
 })

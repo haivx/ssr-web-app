@@ -1,6 +1,6 @@
 import NextAuth from 'next-auth'
 import Providers from 'next-auth/providers'
-import { connectToDB, doc, folder } from '../../../db'
+import { connectToDB, doc, folder } from '../../db'
 
 export default (req, res) =>
   NextAuth(req, res, {

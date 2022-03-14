@@ -83,8 +83,8 @@ export async function getStaticProps  ({ params }) {
       return matter(p)
     })
 
-    const match = cmsPost.find(p => p.data.slug=== params.slug) || {}
-    post = match.content
+    const match = cmsPost.find(p => p.data.slug=== params.slug)
+    post = match?.content
   }
   const  { data } = matter(post || '')
   const mdxSource = await renderToString(post, { scope: data })

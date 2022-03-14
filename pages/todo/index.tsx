@@ -1,8 +1,8 @@
 import React, { useCallback, useReducer, useState } from 'react'
-import { dummy } from './dummy-data'
+import { dummy } from '../../components/dummy-data'
 import styles from '../../styles/todo.module.css'
-import AddNewAction from './AddNewAction'
-import ListAction from './ListActions'
+import AddNewAction from '../../components/AddNewAction'
+import ListAction from '../../components/ListActions'
 
 const TOGGLE = 'TOGGLE'
 const ADD_NEW = 'ADD_NEW'
